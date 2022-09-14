@@ -67,17 +67,17 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   spriteImportData:
-  - name: 
+  - name: Layers_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 0
-      height: 0
+      width: 3625
+      height: 2292
     spriteID: 
     internalID: 0
     spriteBone: []
@@ -89,20 +89,19 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-  mosaicSpriteImportData: []
-  rigSpriteImportData:
-  - name: Overlay
+  mosaicSpriteImportData:
+  - name: Lock
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 3042
-      height: 1584
-    spriteID: 97abe702f0ee6f043bb0129c6642e7c5
+      x: 3055
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: 894ffd6e52bef2846a1d7a502dde3be2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,7 +111,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: -704}
+    uvTransform: {x: 3055, y: -103}
+  - name: Main tab
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1596
+      width: 3043
+      height: 334
+    spriteID: e67c6f14f401e0e499162847d0ffc1a7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -287, y: -362}
+  - name: CloseResource
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3314
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: 30e47dde46f31c14a9e6a5758190bf90
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3314, y: 292}
   - name: Resources
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -122,9 +165,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1938
-      width: 3042
+      width: 3043
       height: 251
-    spriteID: 9874b5c57cbc6114097c6d432e239954
+    spriteID: e50467064d54a2e48b332fb53e14e0da
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -134,8 +177,75 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1543}
-  - name: Main menu
+    uvTransform: {x: -287, y: 292}
+  - name: CloseOverlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3573
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: faa5d8c3a51b36042bd81851b2eed25e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3573, y: 605}
+  - name: Overlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3043
+      height: 1584
+    spriteID: d881235592aad0142af6d2ad3c920828
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -287, y: 4}
+  rigSpriteImportData:
+  - name: Lock
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3055
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: 1a865069ee4d72042bcc45f76e0652b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3055, y: -103}
+  - name: Main tab
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -144,9 +254,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1596
-      width: 3042
+      width: 3043
       height: 334
-    spriteID: e9300d5c6bc4de841860f3534ed2000b
+    spriteID: e4408c3610d47104f9e06a95330eea40
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -156,7 +266,95 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1596}
+    uvTransform: {x: -287, y: -362}
+  - name: CloseResource
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3314
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: c90aa04aa93ecb743a586b13d2624506
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3314, y: 292}
+  - name: Resources
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1938
+      width: 3043
+      height: 251
+    spriteID: 4e1d4e2c77436c045b8f1ab377b11be0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -287, y: 292}
+  - name: CloseOverlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3573
+      y: 1938
+      width: 251
+      height: 251
+    spriteID: 7704347671c32814eba598720c767d6d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3573, y: 605}
+  - name: Overlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3043
+      height: 1584
+    spriteID: e65da6d3ee4ee1b459b0c06be1b5d3ee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -287, y: 4}
   characterData:
     bones: []
     parts: []
@@ -170,7 +368,62 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -178,7 +431,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 3042, y: 2292}
+  documentSize: {x: 3625, y: 2292}
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
@@ -188,29 +441,92 @@ ScriptedImporter:
   textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Overlay
-    spriteName: Overlay
+  mosaicPSDLayers:
+  - name: Lock
+    spriteName: Lock
     isGroup: 0
     parentIndex: -1
-    spriteID: 97abe702f0ee6f043bb0129c6642e7c5
+    spriteID: 894ffd6e52bef2846a1d7a502dde3be2
+    layerID: 5
+    mosaicPosition: {x: 3055, y: 1938}
+  - name: Main tab
+    spriteName: Main tab
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e67c6f14f401e0e499162847d0ffc1a7
     layerID: 3
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 1596}
+  - name: CloseResource
+    spriteName: CloseResource
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 30e47dde46f31c14a9e6a5758190bf90
+    layerID: 6
+    mosaicPosition: {x: 3314, y: 1938}
   - name: Resources
     spriteName: Resources
     isGroup: 0
     parentIndex: -1
-    spriteID: 9874b5c57cbc6114097c6d432e239954
+    spriteID: e50467064d54a2e48b332fb53e14e0da
     layerID: 4
     mosaicPosition: {x: 4, y: 1938}
-  - name: Main menu
-    spriteName: Main menu
+  - name: CloseOverlay
+    spriteName: CloseOverlay
     isGroup: 0
     parentIndex: -1
-    spriteID: e9300d5c6bc4de841860f3534ed2000b
+    spriteID: faa5d8c3a51b36042bd81851b2eed25e
+    layerID: 7
+    mosaicPosition: {x: 3573, y: 1938}
+  - name: Overlay
+    spriteName: Overlay
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d881235592aad0142af6d2ad3c920828
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  rigPSDLayers:
+  - name: Lock
+    spriteName: Lock
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1a865069ee4d72042bcc45f76e0652b6
     layerID: 5
+    mosaicPosition: {x: 3055, y: 1938}
+  - name: Main tab
+    spriteName: Main tab
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e4408c3610d47104f9e06a95330eea40
+    layerID: 3
     mosaicPosition: {x: 4, y: 1596}
+  - name: CloseResource
+    spriteName: CloseResource
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c90aa04aa93ecb743a586b13d2624506
+    layerID: 6
+    mosaicPosition: {x: 3314, y: 1938}
+  - name: Resources
+    spriteName: Resources
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4e1d4e2c77436c045b8f1ab377b11be0
+    layerID: 4
+    mosaicPosition: {x: 4, y: 1938}
+  - name: CloseOverlay
+    spriteName: CloseOverlay
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7704347671c32814eba598720c767d6d
+    layerID: 7
+    mosaicPosition: {x: 3573, y: 1938}
+  - name: Overlay
+    spriteName: Overlay
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e65da6d3ee4ee1b459b0c06be1b5d3ee
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
   sharedRigPSDLayers: []
   generateGOHierarchy: 0
   textureAssetName: Layers Texture
