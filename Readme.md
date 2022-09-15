@@ -1,5 +1,17 @@
 # 3rdi UI/UX Unity Demo
 
+❗❗❗ **Important:** ❗❗❗
+
+Unity version :`2021.1.6f1`
+> No other version will do it.
+
+*Yuriy Said about it:*
+<details>
+    <summary>Details</summary>
+    One Nation, One Reich, One Version of Unity.
+</details>
+
+
 😎🤓👻
 
 
