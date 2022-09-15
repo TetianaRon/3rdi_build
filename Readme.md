@@ -15,6 +15,8 @@ All necessary information can be found incide `Main.unity`
 
 ![MainScene](./res/Main.png)
 
+![MainScene](./res/Build.gif)
+
 ## Todo 
 
 - [x] Make Web Page Design
