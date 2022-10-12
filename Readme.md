@@ -7,6 +7,7 @@ Unity version :`2021.1.6f1`
 
 
 😎🤓👻
+Oh No without Windows Terminal emoji dont work **OMG**
 
 
 It's simple demo that allo to view current design using `Oculus Quest 2`
