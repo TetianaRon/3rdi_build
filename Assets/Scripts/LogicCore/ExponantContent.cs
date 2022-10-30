@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class ExponantContent : MonoBehaviour
+namespace Assets.Scripts.LogicCore
 {
-    // Start is called before the first frame update
-    void Start()
+    [CreateAssetMenu(fileName = "ExponentContent", menuName = "3rdi/ExponentCont", order = 1)]
+    public class ExponentContent : ScriptableObject 
     {
-        
-    }
+        public string Name;
+	[IconAttribute]
+        public Texture2D Icons;
+	[TextArea]
+        public string Description;
+        public UnityAction ObjectAction;
+        public Texture2D[] Images;
+        public AudioClip[] Tracks;
+        public GameObject Prefab;
+        public ExponentContent[] RefContent;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
+
