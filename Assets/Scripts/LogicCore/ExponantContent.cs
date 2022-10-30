@@ -7,7 +7,7 @@ namespace Assets.Scripts.LogicCore
    [CreateAssetMenu(fileName = "ExponentContent", menuName = "3rdi/ExponentCont", order = 1)]
     public class ExponentContent : ScriptableObject
     {
-        public bool IsFavorite;
+        public bool IsFavorite=false;
         public string Name;
         public Texture2D Icons;
         [TextArea]
@@ -31,6 +31,7 @@ namespace Assets.Scripts.LogicCore
         public string Description; 
 
         public string[] Options;
+        [Tooltip("Indexing start with 0. If the first anser is right that put 0 here")]
         public int RightAnswer;
 
     }
