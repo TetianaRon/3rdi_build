@@ -12,7 +12,7 @@ namespace Assets.Scripts.LogicCore
             var exponants = FindObjectsOfType<InteractableExponat>();
             _interactableManger = new InteractableManger(exponants);
 
-            _interactableManger.OnNewExponatActivated += (e) => { _panelManger.ContentUpdate(e)};
+            _interactableManger.OnNewExponatActivated += (e) => { _panelManger.ContentUpdate(e);};
 
 
         }

@@ -7,7 +7,8 @@ namespace Assets.Scripts.LogicCore
     {
         public void UpdateContent(ExponentContent exponentContent)
         {
-            throw new NotImplementedException();
+
+             throw new NotImplementedException($"for exponat {exponentContent.Name}");
         }
     }
 }
