@@ -7,7 +7,6 @@ namespace Assets.Scripts.LogicCore
     public class ExponentContent : ScriptableObject 
     {
         public string Name;
-	[IconAttribute]
         public Texture2D Icons;
 	[TextArea]
         public string Description;
