@@ -53,6 +53,19 @@ public ExponentContent[] RefContnet;
 
 ```
 
+```csharp
+
+class InteractibleObject{}
+
+class GameManger{}
+
+class PanelManger{}
+class InteractbleManger{}
+class MainPanel{}
+
+
+```
+
 ## Future
 
 - [ ] ZenJeckt

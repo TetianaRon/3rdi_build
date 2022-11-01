@@ -10,6 +10,7 @@ namespace Assets.Scripts.LogicCore
         public event Action<InteractableExponat> OnFocus;
         public event Action<ExponentContent> OnPressed;
 
+
         [SerializeField]
         private UnityAction OnActionAction;
 
@@ -18,7 +19,7 @@ namespace Assets.Scripts.LogicCore
 
         public void DoAction()
         {
-         OnActionAction?.Invoke();
+             OnActionAction?.Invoke();
         }
 
 
