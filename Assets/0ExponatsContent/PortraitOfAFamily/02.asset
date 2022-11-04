@@ -13,9 +13,21 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: LogicCore:Assets.Scripts.LogicCore:ExponentContent
   IsFavorite: 0
-  Name: 
-  Icons: {fileID: 0}
-  Description: 
+  Name: Portrait of a Family
+  Icons: {fileID: 2800000, guid: 5e102f2239f157840a7700147d2f6a07, type: 3}
+  Description: "Arent Arentsz, Dutch\n\nThe family stands on the bank of a river
+    in front of what presumably is their house. The people in the picture are clearly
+    divided into two groups, masters and servants. The gentry is depicted in all
+    their finer clothes while the others - with faces coarsened and darkened by outdoor
+    work \u2013 stand in the background or to one side.\r\nAs Arentsz spent his whole
+    career in Amsterdam and did not travel far afield, the river may well be the
+    Ij and the location a village close to Amserdam. The topographical depiction
+    and de squatness of the figures are typical of his early Amsterdam work.\r\nThe
+    family portrait in the Hallwyl Collection is the only known family portrait by
+    Arent Arentsz. Although its composition clearly follows the rest of his production
+    as far as can be ascertained by comparing his works in other museums. Arentsz
+    normally painted on elongated panels like this one and mostly restricted himself
+    to painting fishermen and water front scenes."
   Images: []
   Tracks: []
   Prefab: {fileID: 0}

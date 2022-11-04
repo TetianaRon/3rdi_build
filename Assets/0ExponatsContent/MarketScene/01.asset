@@ -13,10 +13,19 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: LogicCore:Assets.Scripts.LogicCore:ExponentContent
   IsFavorite: 0
-  Name: 
-  Icons: {fileID: 0}
-  Description: 
-  Images: []
+  Name: Market Scene
+  Icons: {fileID: 2800000, guid: b1b7b8b0946c23a4fae084af393469b0, type: 3}
+  Description: "Pieter Aertsen, 1569 year, Dutch\n\nThe Painting has no religious
+    undertones, as many of Aertsen\xB4s work had, but divulges a highly erotic subject
+    where the saucy looking woman holding a cabbage head \u2013 a symbol of female
+    sexuality \u2013 bending forward in order do display her breasts to the viewer.
+    The man holdning a carrot, and thus hinting rather unsubtly at his sexual capacity,
+    also points towards the group of vegetables directly opposite the cabbage head:
+    two spherical tomatoes and a veined, upright cucumber."
+  Images:
+  - {fileID: 2800000, guid: a81867d27188d384c80fa7efae1c993e, type: 3}
+  - {fileID: 2800000, guid: 55533d7b096b3384b818ebac4375b3fa, type: 3}
+  - {fileID: 2800000, guid: cb2b2265c1adb4048882e45e51fbb470, type: 3}
   Tracks: []
   Prefab: {fileID: 0}
   RefContent: []
