@@ -26,7 +26,7 @@ public class PanelManger : MonoBehaviour
 
     private static PanelManger _instance;
 
-    private void Awake()
+    public void Awake()
     {
         _instance = this;
         _followMe = GetComponent<FollowMeToggle>();
