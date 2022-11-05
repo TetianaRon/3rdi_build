@@ -12,7 +12,10 @@ namespace Assets.Scripts.LogicCore
             var exponants = FindObjectsOfType<InteractableExponat>();
             _interactableManger = new InteractableManger(exponants);
 
-            _interactableManger.OnNewExponatActivated += (e) => { _panelManger.ContentUpdate(e);};
+            _interactableManger.OnNewExponatActivated += (e) =>
+            {
+               // _panelManger.ContentUpdate(e);
+            };
 
 
         }
@@ -23,30 +26,13 @@ namespace Assets.Scripts.LogicCore
 
     }
 
-    [Serializable]
-    public class PanelManger:IPanelManager
-    {
-        [SerializeField]
-        private MainPanel _mainPanel;
-
-        public void ContentUpdate(ExponentContent exponentContent)
-        {
-            _mainPanel.UpdateContent(exponentContent);
-
-        }
-    }
-
-    public interface IPanelManager
-    {
-        public void ContentUpdate(ExponentContent exponentContent);
-    }
 
     [Serializable]
     public class InteractableManger
     {
         private static InteractableManger _instance; 
         public List<InteractableExponat> InteractableObjects;
-        public event Action<ExponentContent> OnNewExponatActivated;
+        public event Action<ExponatContent> OnNewExponatActivated;
 
         public InteractableManger(InteractableExponat[] interactableObjects)
         {

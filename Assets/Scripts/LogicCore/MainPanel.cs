@@ -5,10 +5,10 @@ namespace Assets.Scripts.LogicCore
 {
     public class MainPanel:MonoBehaviour    
     {
-        public void UpdateContent(ExponentContent exponentContent)
+        public void UpdateContent(ExponatContent exponatContent)
         {
 
-             throw new NotImplementedException($"for exponat {exponentContent.Name}");
+             throw new NotImplementedException($"for exponat {exponatContent.Name}");
         }
     }
 }

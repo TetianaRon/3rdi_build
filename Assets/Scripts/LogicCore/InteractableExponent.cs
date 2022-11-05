@@ -8,14 +8,14 @@ namespace Assets.Scripts.LogicCore
     public class InteractableExponat : MonoBehaviour
     {
         public event Action<InteractableExponat> OnFocus;
-        public event Action<ExponentContent> OnPressed;
+        public event Action<ExponatContent> OnPressed;
 
 
         [SerializeField]
         private UnityAction OnActionAction;
 
         [SerializeField]
-        private ExponentContent _content;
+        private ExponatContent _content;
 
         public void DoAction()
         {
