@@ -21,7 +21,7 @@ Till **14.11** Finish The demo for portfolio
 - UPloading High Quality of imimages
 - Switchign between Tabs
 - UI Design
-  - Tab of full vidoe 
+	- Tab of full vidoe 
 
 - Cosmetical clickale
 
@@ -48,9 +48,12 @@ Preper all the refs for the functionsality
 
 - 15:00 pm I can start working on it till 20:00 will finsi it up
 
-- Make Switchable tabsl
-- Fix the position Panel Bug Auto apearing in front of you instead of following
-- UPloading HQ of imimages
-- UI elements references
+### 07.11 
+
+- [ ] Make Switchable tabsl
+- [ ] Fix the position Panel Bug Auto apearing in front of you instead of following
+- [ ] UPloading HQ of imimages
+- [ ] UI elements references
+	- [ ]Tab of full vidoe 
 
 

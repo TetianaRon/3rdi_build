@@ -13,6 +13,9 @@ public class PanelManger : MonoBehaviour
     [SerializeField]
     private GameObject _exponatInfoPanel;
 
+    [SerializeField]
+    private bool _followAfterClick = false;
+
     private FollowMeToggle _followMe;
 
     [SerializeField]
@@ -46,7 +49,10 @@ public class PanelManger : MonoBehaviour
     public void ShowExponatInfoPanel(ExponatContent content=null)
     {
         _followMe.AutoFollowDistance = _distance;
-        _followMe.SetFollowMeBehavior(true);
+
+        if(_followAfterClick)
+            _followMe.SetFollowMeBehavior(true);
+
         if (content != null)
            _title.text=  content.Name;
            _description.text = content.Description;
