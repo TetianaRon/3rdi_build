@@ -48,10 +48,18 @@ public class PanelManger : MonoBehaviour
 
     public void ShowExponatInfoPanel(ExponatContent content=null)
     {
-        _followMe.AutoFollowDistance = _distance;
 
-        if(_followAfterClick)
+        if (_followAfterClick)
+        {
+
+            _followMe.AutoFollowDistance = _distance;
             _followMe.SetFollowMeBehavior(true);
+        }
+        else
+        {
+            _followMe.SetFollowMeBehavior(false);
+        }
+        
 
         if (content != null)
            _title.text=  content.Name;
